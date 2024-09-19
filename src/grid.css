@@ -1,0 +1,51 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.outerDiv{
+    width: 850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    border-color: black;
+    border-width: 8px;
+    border-style: solid;
+}
+ .innerDiv{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(52, 61, 60); 
+    color: rgb(52, 61, 60);
+    border: 3px solid black;
+    
+}   
+.clicked{
+    background-color:rgb(218, 193, 149);
+    color: black;
+    visibility: visible;
+}
+.bomb{
+    background-color: #a52a2a;
+    color: #F5F5DC;
+}
+#gameOver{
+    text-align: center;
+    font-family: 'LVDC Game Over 2', sans-serif;
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+.hide{
+    visibility: hidden;
+}
+.dontHide{
+    visibility: visible;
+}
+p{
+    font-size: 50px;
+    
+}
